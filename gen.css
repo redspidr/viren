@@ -1,0 +1,69 @@
+<style>
+    * {
+  box-sizing: border-box;
+  display: no;
+    }
+  body {
+    background-image: url(viren-dino.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+    .hero-page {
+  /* The image used */
+  background-color: /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
+  padding: 0;
+  margin: 0;
+    }
+
+    .hero-text {
+      position: absolute;
+      left: 30%;
+      top: -20px;
+      width: 1fr;
+      text-align: center;
+      display:inline;
+      flex-wrap: nowrap;
+      padding-left: px;
+      padding-top: 0px;
+      word-spacing: 10px;
+      width: 800px;
+      /* border value: size solid color*/
+      /*border: 3px solid greenyellow;*/
+    
+    }
+    
+    .viren-text {
+      
+    font-size: 80px; 
+    height: 80px;
+    text-align: center; font-style: italic; font-family:fantasy;
+    text-decoration-line: underline;
+    align-content: center;
+    color: rgba(40, 162, 255, 0.987);
+    display: inline
+    }
+    
+    
+   
+    /* For mobile phones: */
+    [class*="col-"] {
+    width: 100%;
+    }
+    .hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+
+    }
+    img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    }
+  
+  </style>
