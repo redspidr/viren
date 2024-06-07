@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Viren</title>
+  <title>Viren's Space</title>
 
   <link rel="stylesheet" href="gen.css">
   
 </head>
+
 <body>
 
+
 <div class="hero-page">
-  
-
-
   <div style="width: 50px; position: absolute; margin-top: 20px; margin-left: 20px;
    ">
     <img src="T-rex.png" alt=" T-rex;" width="100px" height="100px;
@@ -29,35 +28,36 @@
   ">
     <a href="https://www.duolingo.com" class="lingo"><img src="icon/duolingo-icon.png" alt="icon" style="width: 150px; border-radius: 20px;" ></a>
   </div>
-
+  <button>
   <div class="hero-text">
-    <p style="padding-top: 30px;"><span class="viren-text">
+    <p style="padding-top: 30px;"><span  class="viren-text" onclick="myFunction()"id="viren-text">
       Viren
       </span>  
 
       <span style="color: orange;">the</span>
 
       <span style="color:rgba(225, 109, 217, 0.758); font-size: 50px; font-family: fantasy;    
-      ">
+      " id="kungFu">
       Kung-Fu
       </span>
       <span style="color:#7fef57ca; font-size: 70px; font-family: fantasy;
-      text-decoration-line: underline;
-      white-space: nowrap;"> Master
+      text-decoration-line: underline; display: inline;"> Master
       </span>
+      
     </p>
-   
-     <div>
-      <img      src="KungFu-Viren.png" alt="kung fu posture" style="width: 800px; height: 900px;
-      padding-left: auto;
-      padding-right: auto;
-      margin-top: -50px;
-      ">
-
-     </div> 
-     
+    <script>
+      function myFunction() 
+      {
+    var x = document.createElement("img");
+    x.setAttribute("src", "KungFu-Viren.png");
+    x.setAttribute("width", "600");
+    x.setAttribute("alt", "The Kung Fu Man");
+     document.getElementById("kungFu").appendChild(x)
+      }
+    </script>
       
   </div>
+  <div id="kungfu"></div> 
 </div>
 
 </body>
